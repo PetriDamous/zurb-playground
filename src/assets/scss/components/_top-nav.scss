@@ -1,0 +1,42 @@
+.top-nav {
+    width: 100%;
+    background: #303F40;   
+}
+
+.top-list-left {
+    list-style: none;
+    overflow: hidden;
+
+    li {
+      float: left;
+      padding: 10px 15px;
+      color: #EEEDEE;
+      font-size: 13px;  
+    }
+
+    li:first-child {
+        padding-left: 0;
+    }
+
+    li i {
+        padding-right: 8px;
+    }
+}
+
+.top-list-right {
+    list-style: none;
+    overflow: hidden;
+    padding-right: 2rem;
+
+    li {
+        float: right;
+        padding: 10px 15px;
+        color: #EEEDEE;
+        font-size: 13px;
+
+    }
+
+    a {
+        color: #fff;
+    }
+}
